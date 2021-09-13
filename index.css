@@ -1,0 +1,41 @@
+.slider_box{
+	width: 100%;
+	height: 500px;
+	border:solid 1px black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#slider{
+	width: 800px;
+	height: 480px;
+	border:solid 1px black;
+	background-image: url(img/1.jpg);
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+#left,#right{
+	width: 60px;
+	height: 60px;
+	background-color: green;
+}
+#circleBox{
+	width: 600px;
+	height: 40px;
+	border:solid 1px black;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.circle{
+	width: 30px;
+	height: 30px;
+	background-color:black;
+	border-radius: 50%;
+	font-size: 0px;
+}
